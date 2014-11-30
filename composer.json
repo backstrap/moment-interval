@@ -16,7 +16,7 @@
   ],
   "require": {
     "robloach/component-installer": "*",
-    "moment": "~2.5"
+    "moment/moment": "~2.5"
   },
   "extra": {
     "component": {
