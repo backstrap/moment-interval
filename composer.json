@@ -1,0 +1,33 @@
+{
+  "name": "moment-interval",
+  "description": "Time intervals for Moment.js",
+  "version": "0.2.1",
+  "type": "component",
+  "license": "MIT",
+  "homepage": "https://github.com/luisfarzati/moment-interval",
+  "support": {
+    "issues": "https://github.com/luisfarzati/moment-interval/issues"
+  },
+  "authors": [
+    {
+      "name": "Luis Farzati",
+      "email": "lfarzati@gmail.com"
+    }
+  ],
+  "require": {
+    "robloach/component-installer": "*",
+    "moment": "~2.5"
+  },
+  "extra": {
+    "component": {
+      "scripts": [
+        "src/moment-interval.js"
+      ],
+      "shim": {
+        "deps": [
+          "moment"
+        ]
+      }
+    }
+  }
+}
